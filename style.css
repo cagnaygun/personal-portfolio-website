@@ -1,0 +1,149 @@
+/* Genel stil */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: #e5e7eb;
+  }
+  
+  /* Header ve navbar */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: #020617;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Home icon */
+  .home-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  /* Navbar */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: 500;
+  }
+  
+  /* Hover efekti – kriter 2 */
+  nav a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  /* Bölümler */
+  section {
+    padding: 40px 32px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  section h2 {
+    margin-bottom: 16px;
+    border-bottom: 2px solid #374151;
+    padding-bottom: 8px;
+  }
+  
+  /* About */
+  .about-content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #374151;
+  }
+  
+  /* Skills */
+  .skills-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020617;
+    padding: 16px;
+    border-radius: 8px;
+    min-width: 100px;
+  }
+  
+  .skill img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+  
+  /* Projects */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .project {
+    background-color: #020617;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  /* Recommendations */
+  #recommendation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .recommendation {
+    background-color: #020617;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-style: italic;
+  }
+  
+  /* Form */
+  #recommendation-form textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  #recommendation-form button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8" />
+  <title>Client Portfolio - ABC Consultants</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER & NAVBAR -->
+  <header>
+    <div class="logo">Ömer Çağan Aygün</div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home icon -->
+    <a href="#top" class="home-icon" title="Back to top">🏠</a>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="profile.jpg" alt="Profile picture" class="profile-img" />
+      <div>
+        <h3>Ömer Çağan Aygün</h3>
+        <p>
+          I am a motivated software developer with less than 5 years of
+          experience, passionate about building clean and user-friendly web
+          applications. I enjoy solving real-world problems using modern web
+          technologies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo" />
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo" />
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" />
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Project 1 – Portfolio Website</h3>
+        <p>
+          A responsive personal portfolio website showcasing projects,
+          experience, and contact information.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project 2 – Task Manager App</h3>
+        <p>
+          A simple web-based task manager that helps users create, update, and
+          track their daily tasks.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project 3 – Weather Dashboard</h3>
+        <p>
+          A dashboard that displays live weather information for selected
+          cities using a public API.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS SECTION -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+
+    <div id="recommendation-list">
+      <div class="recommendation">
+        “Çağan is a quick learner and consistently delivers high-quality
+        work on time.”
+      </div>
+      <div class="recommendation">
+        “They are a great team player and communicate clearly throughout the
+        project lifecycle.”
+      </div>
+      <div class="recommendation">
+        “Their attention to detail and problem-solving skills are impressive.”
+      </div>
+    </div>
+
+    <h3>Add a Recommendation</h3>
+    <form id="recommendation-form">
+      <textarea
+        id="new-recommendation"
+        placeholder="Write your recommendation here..."
+        required
+      ></textarea>
+      <br />
+      <button type="submit">Submit Recommendation</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
